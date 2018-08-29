@@ -1,0 +1,16 @@
+body {
+    background-color: #8338ec
+}
+
+#logo {
+    height: 80px;
+}
+
+.catCont {
+    border-radius: 10%;
+    background-color: white;
+}
+
+.cat {
+    border-radius: 50%;
+}
