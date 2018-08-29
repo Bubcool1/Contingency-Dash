@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CatTrack Tracking Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="lib/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="lib/css/click.css" />
+    <script src="lib/js/main.js"></script>
+    <script src="lib/js/listCats.js"></script>
 </head>
 <body>
-    <img src="res/static/logo.png" id="logo">
+    <img src="lib/res/static/logo.png" id="logo">
     <div id="container">
-        <div class="catCont">
-            <img src="res/dynamic/cat1.jpg" class="cat">
+        <div class="catCont" id="cat1">
+            <img class="cat" src="lib/res/dynamic/cat1.jpg">
+            <div id="cat1-details">
+                <p id="cat1-name">Sooty</p>
+                <p id="cat1-loc">Inside</p>
+                <p id="cat1-specLoc">Cat Bowl</p>
+            </div>
+            <a href="panel/cat1.php">
+                <span class="link-spanner"></span>
+            </a>
         </div>
     </div>
 </body>
