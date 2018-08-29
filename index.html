@@ -7,22 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="lib/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="lib/css/click.css" />
-    <script src="lib/js/main.js"></script>
+    <!-- <script src="lib/js/main.js"></script> -->
     <script src="lib/js/listCats.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>
 <body>
     <img src="lib/res/static/logo.png" id="logo">
     <div id="container">
-        <div class="catCont" id="cat1">
+        <div onclick="location.href='cat1.html';" class="catCont" id="cat1">
             <img class="cat" src="lib/res/dynamic/cat1.jpg">
             <div id="cat1-details">
-                <p id="cat1-name">Sooty</p>
-                <p id="cat1-loc">Inside</p>
-                <p id="cat1-specLoc">Cat Bowl</p>
+                <p id="cat1-name" class="name">Sooty</p>
+                <p id="cat1-specLoc" class="specLoc">Cat Bowl</p>
+                <p id="cat1-loc" class="loc">(Inside)</p>
             </div>
-            <a href="panel/cat1.php">
-                <span class="link-spanner"></span>
-            </a>
         </div>
     </div>
 </body>

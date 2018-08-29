@@ -1,3 +1,9 @@
+/* 
+    Font styles:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
 body {
     background-color: #8338ec
 }
@@ -14,6 +20,7 @@ body {
     margin: 3%;
     order: 1;
     display: flex;
+    cursor: pointer;
 }
 
 .cat {
@@ -28,5 +35,9 @@ body {
 }
 
 .container {
-    display: flex; /* or inline-flex */
-  }
+    display: flex;
+}
+
+.name {
+    
+}
