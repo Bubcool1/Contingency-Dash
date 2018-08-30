@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="lib/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="lib/css/click.css" />
-    <!-- <script src="lib/js/main.js"></script> -->
+    <script src="lib/js/main.js"></script>
     <script src="lib/js/listCats.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>
-<body>
+<body onload="getData('wxOMf0ORojPklj04diYXNayMAK42')">
     <img src="lib/res/static/logo.png" id="logo">
-    <div id="container">
+    <div id="container1">
         <div onclick="location.href='cat1.html';" class="catCont" id="cat1">
             <img class="cat" src="lib/res/dynamic/cat1.jpg">
             <div id="cat1-details">
@@ -24,5 +24,15 @@
             </div>
         </div>
     </div>
+    <div id="container2">
+            <div onclick="location.href='cat1.html';" class="catCont" id="cat2">
+                <img class="cat" src="lib/res/dynamic/cat1.jpg">
+                <div id="cat2-details">
+                    <p id="cat2-name" class="name">Sooty</p>
+                    <p id="cat2-specLoc" class="specLoc">Cat Bowl</p>
+                    <p id="cat2-loc" class="loc">(Inside)</p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
